@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat - BLUEWING</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <img src="img/logo.png" class="logo" alt="Bluewing Logo">
+    <button id="menu-toggle" class="menu-toggle" aria-controls="nav-menu" aria-expanded="false">☰</button>
+    <nav id="nav-menu" class="nav-menu">
+      <a href="main.html">Início</a>
+      <a href="perfil.html">Perfil</a>
+      <a href="chat.html" class="active">Chat</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="login.html">Sair</a>
+    </nav>
+  </header>
+
+  <main class="chat-container">
+    <div class="chat-box" id="chatBox"></div>
+    <div class="chat-input">
+      <input type="text" id="mensagemInput" placeholder="Digite sua mensagem...">
+      <button id="enviarBtn">Enviar</button>
+    </div>
+  </main>
+
+  <footer><p>© 2025 BLUEWING</p></footer>
+  <script src="main.js"></script>
+</body>
+</html>

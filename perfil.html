@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfil - BLUEWING</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <img src="img/user.jpg" id="fotoPerfil" class="logo foto-perfil" alt="Usuário"> 
+    <button id="menu-toggle" class="menu-toggle" aria-controls="nav-menu" aria-expanded="false">☰</button>
+    <nav id="nav-menu" class="nav-menu">
+      <a href="main.html">Início</a>
+      <a href="perfil.html" class="active">Perfil</a>
+      <a href="chat.html">Chat</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="login.html">Sair</a>
+    </nav>
+  </header>
+
+  <main class="perfil">
+    <div class="perfil-info">
+      
+      <h2 id="nomeUsuario">Usuário</h2>
+      <p id="bioUsuario">Explorador(a) de novos destinos!</p>
+    </div>
+
+    <div class="perfil-destinos">
+      <h3>Destinos favoritos</h3>
+      <ul id="listaDestinos"></ul>
+    </div>
+  </main>
+
+  <footer><p>© 2025 BLUEWING</p></footer>
+  <script src="main.js"></script>
+</body>
+</html>
